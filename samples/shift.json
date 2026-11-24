@@ -1,0 +1,9 @@
+{
+  "batch_id": "LC-017",
+  "benches": ["press-east", "press-west"],
+  "unit": "kN",
+  "a_original": [["0", "2", "0"], ["2", "3", null], ["3", "4", "4"]],
+  "a_corrected": [["0", "2", "0"], ["2", "3", "0"], ["3", "4", "4"]],
+  "b_original": [["0", "1", "0"], ["1", "2", "2"]],
+  "request": {"lower": "0", "upper": "2", "minimum_coverage": "3/2"}
+}
